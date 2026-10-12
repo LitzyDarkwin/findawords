@@ -1,0 +1,7 @@
+# Cloudflare Pages önbellek kuralları
+# config.json güncel arşiv sürümünü gösterir: her zaman taze okunmalı
+/data/config.json
+  Cache-Control: no-store
+# Sürümlü arşiv parçaları hiç değişmez: tarayıcı ve CDN süresiz önbellekleyebilir
+/data/v/*
+  Cache-Control: public, max-age=31536000, immutable

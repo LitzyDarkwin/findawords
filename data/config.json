@@ -1,0 +1,12 @@
+{
+  "version": "20261013015126",
+  "serverMode": "chunked",
+  "requestChunkSize": 4096,
+  "databaseLengthBytes": 20029440,
+  "serverChunkSize": 10485760,
+  "urlPrefix": "v/20261013015126/db.",
+  "suffixLength": 3,
+  "videos": 475,
+  "chunks": 126152,
+  "channels": 5
+}
